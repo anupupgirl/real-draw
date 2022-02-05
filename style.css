@@ -1,0 +1,35 @@
+body {
+  background-color: aqua;
+}
+
+h1 {
+  color: blue;
+  background-color: cornsilk;
+}
+
+#show_sketch {
+  float: right;
+}
+
+canvas {
+  border: 5px solid white;
+  border-radius: 20px;
+  animation-name: hello;
+  animation-duration: 4s;
+  margin-top: 50px;
+  animation-iteration-count: infinite;
+}
+
+@keyframes hello {
+  from {
+    box-shadow: 1px 1px 38px blue;
+  }
+  to {
+    box-shadow: 1px 1px 38px rgb(255, 255, 255);
+  }
+}
+
+p {
+  padding-top: 10px;
+  font-size: 25px;
+}
